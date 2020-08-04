@@ -47,7 +47,24 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+# -- Options for HTML output ----------------------------------------------
+
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+if on_rtd:
+    using_rtd_theme = True
+
+# Theme options
+html_theme_options = {
+    # if we have a html_logo below, this shows /only/ the logo with no title text
+    "logo_only": True,
+    # Collapse navigation (False makes it tree-like)
+    "collapse_navigation": False,
+}
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
