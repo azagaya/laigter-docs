@@ -63,10 +63,8 @@ quite simple. It stores the *x*, *y*, and *z* components of the vector on the *R
 an unitary vector (its length is equal to 1), you only need values from -1 to 1 for
 each axis. But RGB can store values from 0 to 1, so the normal map has the components
 of the vector scaled by 0.5, and with a 0.5 offset. This causes the vector
-:math: `(0.0, 0.0, 1.0)`
-(normal vector pointing directly to screen) would transform into
-:math: `(0.5, 0.5, 1.0)`
-, and this is the reazon why normal maps have that blueish color.
+*(0.0, 0.0, 1.0)* (normal vector pointing directly to screen) would transform into
+*(0.5, 0.5, 1.0)*, and this is the reazon why normal maps have that blueish color.
 
 Why chose Laigter?
 ------------------
@@ -99,6 +97,7 @@ continue improving. So, if you like it, consider contributing to the project
 in some of this ways:
 
 Become my Patreon_!
+
 Support me on Kofi_!
 
 .. _Patreon: https://www.patreon.com/azagaya
