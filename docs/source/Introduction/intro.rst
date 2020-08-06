@@ -89,3 +89,17 @@ Game Example
 This is how my current game looks, using Laigter for normal maps:
 
 .. image:: img/example.gif
+
+
+Support Laigter!
+----------------
+
+As Laigter is a free and open source project, it depends on the community to
+continue improving. So, if you like it, consider contributing to the project
+in some of this ways:
+
+Become my Patreon_!
+Support me on Kofi_!
+
+.. _Patreon: https://www.patreon.com/azagaya
+.. _Kofi: https://ko-fi.com/azagayavj

@@ -34,7 +34,6 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx_tabs.tabs",
     "sphinx.ext.imgmath",
 ]
 
