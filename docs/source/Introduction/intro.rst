@@ -1,5 +1,5 @@
-Introduction
-=============
+General Concepts
+================
 
 What is Laigter for?
 --------------------
@@ -26,14 +26,15 @@ light interact.
 
 Normal maps are more often used in 3D games to achieve high quality lighting with low
 cost. A 3D model is made from tiny triangles, each of one has a normal vector (unit
-vector perpendicular to the triangle's surface). So light can bounce and reflect according to that normal. However, to achieve hight quality results, the model should have
+vector perpendicular to the triangle's surface). So light can bounce and reflect
+according to that normal. However, to achieve high quality results, the model should have
 a lot of triangles, wich increases the computational cost. With normal maps, you can
 get a per-fragment normal, only needing to pass a texture with the information of the
 normal vector on its RGB components. Then, this can be used to achive a more detailed
 light interaction with very cheap gpu cost.
 
 In 2D games, this is more noticeable, as we don't even have surfaces with normal
-vectors to achieve lighting. We just have a flat sprite, so all lighting looks flat.
+vectors to calculate lighting. We just have a flat sprite, so all lighting looks flat.
 Using normal maps, we can give the illusion that the sprite has some kind of volume
 when is lit.
 
@@ -60,12 +61,12 @@ But, how does a normal map store the normal vector on a RGB image? The concept i
 quite simple. It stores the *x*, *y*, and *z* components of the vector on the *R*,
 *G*, and *B* channels respectively, but with a small change. As a normal vector is
 an unitary vector (its length is equal to 1), you only need values from -1 to 1 for
-each axis. But RGB can store values from 0 to 1, so we normal map has the components
+each axis. But RGB can store values from 0 to 1, so the normal map has the components
 of the vector scaled by 0.5, and with a 0.5 offset. This causes the vector
 :math: `(0.0, 0.0, 1.0)`
 (normal vector pointing directly to screen) would transform into
 :math: `(0.5, 0.5, 1.0)`
-And this is the reazon why normal maps have that blueish color.
+, and this is the reazon why normal maps have that blueish color.
 
 Why chose Laigter?
 ------------------
@@ -82,3 +83,9 @@ The real time preview lets you check the result inmediatly.
 
 Laigter's rendering is done in OpenGL 2.x standar, so you can use it on old machines.
 
+Game Example
+------------
+
+This is how my current game looks, using Laigter for normal maps:
+
+.. image:: img/example.gif
