@@ -2,6 +2,9 @@ Introduction:
 =============
 
 What is Laigter for?
+--------------------
+
+.. image:: img/MainWindow.png
 
 Laigter is mainly an automatic normal map generator focused in 2D Sprites. You just
 need to drag and drop your images into Laigter, and normal map will be generated
