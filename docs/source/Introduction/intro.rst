@@ -37,11 +37,12 @@ vectors to achieve lighting. We just have a flat sprite, so all lighting looks f
 Using normal maps, we can give the illusion that the sprite has some kind of volume
 when is lit.
 
-.. figure:: img/BricksWithoutNormal
+.. figure:: img/BricksWithoutNormal.png
 
    Bricks Texture Without Normal Map
 
-.. figure:: img/BricksWithNormal
+
+.. figure:: img/BricksWithNormal.png
 
    Bricks Texture With Normal Map
 
