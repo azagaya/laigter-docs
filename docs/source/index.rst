@@ -10,6 +10,8 @@ Welcome to Laigter's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   Introduction/intro
+
 
 
 Indices and tables
