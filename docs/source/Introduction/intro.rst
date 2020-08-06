@@ -38,13 +38,34 @@ Using normal maps, we can give the illusion that the sprite has some kind of vol
 when is lit.
 
 .. figure:: img/BricksWithoutNormal.png
+   :scale: 50 %
 
    Bricks Texture Without Normal Map
 
 
 .. figure:: img/BricksWithNormal.png
+   :scale: 50 %
 
    Bricks Texture With Normal Map
+
+Normal Map Example
+~~~~~~~~~~~~~~~~~~
+
+The following image shows a normal map example.
+
+.. image:: img/NormalMap.jpg
+   :scale: 50 %
+
+But, how does a normal map store the normal vector on a RGB image? The concept is
+quite simple. It stores the *x*, *y*, and *z* components of the vector on the *R*,
+*G*, and *B* channels respectively, but with a small change. As a normal vector is
+an unitary vector (its length is equal to 1), you only need values from -1 to 1 for
+each axis. But RGB can store values from 0 to 1, so we normal map has the components
+of the vector scaled by 0.5, and with a 0.5 offset. This causes the vector
+:math: `(0.0, 0.0, 1.0)`
+(normal vector pointing directly to screen) would transform into
+:math: `(0.5, 0.5, 1.0)`
+And this is the reazon why normal maps have that blueish color.
 
 Why chose Laigter?
 ------------------
