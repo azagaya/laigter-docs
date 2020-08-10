@@ -45,6 +45,21 @@ one, in order of appearance in the gui:
 
 - |reload-plugin| Reload Plugin: Reload all installed plugins.
 
+Dock Widgets
+------------
+
+Most of the controls of Laigter are placed in dock widgets that you can move arround the gui. The following image shows all the dock widgets together:
+
+.. image:: img/DockWidgets.png
+
+The controls of each individual dock widget will be explained on a section of their own, but here there is a brief explanation of the docks.
+
+- Normal/Specular/Parallax/Occlusion: this docks contain the controls for tweaking the generation of each maps.
+- Sprite Proerties Dock Widget: In this dock you have some controls and information of the currently selected sprite. You can change its position in the canvas, as well as its rotation and scale. You can select to generate maps in a *tiled* way, and chose how to extend it outside it bonds (select neighbours). Also, here you can make animations out of a sprite sheet, splitting the texture in multiple frames.
+- Visualization: This docks lets you chose what map you want to see, or select preview to see the result with dinamyc lighting. Also some other controls let you tweak a bit the preview.
+- Textures: This dock just contains a list of the currently opened textures. You can select multiple of them to show them all at the same time in the central widget.
+- Export: in this dock you can select which maps you want to export, and if you want to export directly in the location of the original sprite (Export button) or to a specified folder (Export to.. button). This makes a batch export, exporting maps of all textures.
+
 .. |open| image:: img/open.png
           :scale: 50 %
 .. |save| image:: img/save.png
