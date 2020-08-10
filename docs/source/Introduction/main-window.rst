@@ -48,18 +48,34 @@ one, in order of appearance in the gui:
 - |reload-plugin| Reload Plugin: Reload all installed plugins.
 
 .. |open| image:: img/open.png
+          :scale: 50 %
 .. |save| image:: img/save.png
+          :scale: 50 %
 .. |save-as| image:: img/save_as.png
+             :scale: 50 %
 .. |import| image:: img/import.png
+            :scale: 50 %
 .. |fit-zoom| image:: img/zoom_fit.png
+              :scale: 50 %
 .. |100-zoom| image:: img/zoom100.png
+              :scale: 50 %
 .. |zoom+| image:: img/zoom+.png
+           :scale: 50 %
 .. |zoom-| image:: img/zoom-.png
+           :scale: 50 %
 .. |export| image:: img/export.png
+            :scale: 50 %
 .. |add-light| image:: img/add_light.png
+               :scale: 50 %
 .. |presets| image:: img/presets.png
+             :scale: 50 %
 .. |about| image:: img/info.png
+           :scale: 50 %
 .. |themes| image:: img/theme-selector.png
+            :scale: 50 %
 .. |add-plugin| image:: img/plugin-install.png
+                :scale: 50 %
 .. |remove-plugin| image:: img/plugin-delete.png
+                   :scale: 50 %
 .. |reload-plugin| image:: img/plugin-reload.png
+                   :scale: 50 %
