@@ -15,11 +15,11 @@ Toolbar buttons
 In the toolbar, you will notice a few buttons. This is a brief explanation of each
 one, in order of appearance in the gui:
 
- - |open| Open Project: Open a previously saved Laigter project file.
- - |save| Save Project: Save current work as a Laigter project file. If the project
+- |open| Open Project: Open a previously saved Laigter project file.
+- |save| Save Project: Save current work as a Laigter project file. If the project
  has not been saver previously, it will trigger *Save As* instead.
 
- - |save-as| Save As: Saves current work as a new Laigter project. A dialog will
+- |save-as| Save As: Saves current work as a new Laigter project. A dialog will
  pop up and let you chose location and name of the file.
 
 - |import| Import: Opens a dialog to chose images to import in laigter's current
@@ -42,12 +42,12 @@ one, in order of appearance in the gui:
 
 - |about| About: Opens a window with information about Laigter version, contributors, supporters, links to relevant sites, etc.
 
- - |themes| Theme: Lets you select the theme for the gui.
- - |add-plugin| Install Plugin: Opens a dialog to select a plugin from your file system and install it to Laigter.
+- |themes| Theme: Lets you select the theme for the gui.
+- |add-plugin| Install Plugin: Opens a dialog to select a plugin from your file system and install it to Laigter.
 
- - |remove-plugin| Delete Plugin: Opens a dialog to select and delete a specific plugin.
+- |remove-plugin| Delete Plugin: Opens a dialog to select and delete a specific plugin.
 
- - |reload-plugin| Reload Plugin: Reload all installed plugins.
+- |reload-plugin| Reload Plugin: Reload all installed plugins.
 
 .. |open| image:: img/open.png
 .. |save| image:: img/save.png
