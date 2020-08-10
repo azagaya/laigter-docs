@@ -16,11 +16,9 @@ In the toolbar, you will notice a few buttons. This is a brief explanation of ea
 one, in order of appearance in the gui:
 
 - |open| Open Project: Open a previously saved Laigter project file.
-- |save| Save Project: Save current work as a Laigter project file. If the project
- has not been saver previously, it will trigger *Save As* instead.
+- |save| Save Project: Save current work as a Laigter project file. If the project has not been saver previously, it will trigger *Save As* instead.
 
-- |save-as| Save As: Saves current work as a new Laigter project. A dialog will
- pop up and let you chose location and name of the file.
+- |save-as| Save As: Saves current work as a new Laigter project. A dialog will pop up and let you chose location and name of the file.
 
 - |import| Import: Opens a dialog to chose images to import in laigter's current
  project.
