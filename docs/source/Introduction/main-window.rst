@@ -67,7 +67,7 @@ Almost all controls in Laigter's gui are standar, so no explanations are requier
 
 A Slider in Laigter looks like this:
 
-.. image img/Slider.png
+.. image:: img/Slider.png
 
 The usage is simple. You can grab it from the right little square indicator, or you can simply write a number, and the slider value will be updated. And thats all!
 

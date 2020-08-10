@@ -13,4 +13,6 @@ Welcome to Laigter's documentation!
    Introduction/intro
    Introduction/install
    Introduction/main-window
+   Introduction/support
+   Introduction/community
 
