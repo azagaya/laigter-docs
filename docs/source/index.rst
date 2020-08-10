@@ -11,5 +11,6 @@ Welcome to Laigter's documentation!
    :caption: Contents:
 
    Introduction/intro
+   Introduction/install
    Introduction/main-window
 
