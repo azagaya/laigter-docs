@@ -20,11 +20,9 @@ one, in order of appearance in the gui:
 
 - |save-as| Save As: Saves current work as a new Laigter project. A dialog will pop up and let you chose location and name of the file.
 
-- |import| Import: Opens a dialog to chose images to import in laigter's current
- project.
+- |import| Import: Opens a dialog to chose images to import in laigter's current project.
 
-- |fit-zoom| Fit Zoom: Applies the right ammount of zoom and translation of the
- canvas, in order to fit all textures in the current view.
+- |fit-zoom| Fit Zoom: Applies the right ammount of zoom and translation of the canvas, in order to fit all textures in the current view.
 
 - |100-zoom| Zoom 100%: Restores the default zoom (1:1 scale of the textures).
 - |zoom+| Zoom +: Zooms in the canvas.
