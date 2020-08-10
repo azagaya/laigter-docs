@@ -11,12 +11,5 @@ Welcome to Laigter's documentation!
    :caption: Contents:
 
    Introduction/intro
+   Introduction/main-window
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
