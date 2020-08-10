@@ -60,6 +60,17 @@ The controls of each individual dock widget will be explained on a section of th
 - Textures: This dock just contains a list of the currently opened textures. You can select multiple of them to show them all at the same time in the central widget.
 - Export: in this dock you can select which maps you want to export, and if you want to export directly in the location of the original sprite (Export button) or to a specified folder (Export to.. button). This makes a batch export, exporting maps of all textures.
 
+Sliders
+-------
+
+Almost all controls in Laigter's gui are standar, so no explanations are requiere to use them. However, the slider in Laigter is a custom widget, so a brief usage explanation may be useful.
+
+A Slider in Laigter looks like this:
+
+.. image img/Slider.png
+
+The usage is simple. You can grab it from the right little square indicator, or you can simply write a number, and the slider value will be updated. And thats all!
+
 .. |open| image:: img/open.png
           :scale: 50 %
 .. |save| image:: img/save.png
