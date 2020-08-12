@@ -46,6 +46,7 @@ order they are being rendered, so you can put a sprite "in front of" another one
 This is done trhough the "Textures" dock widget.
 
 .. image:: img/texturesdock.png
+   :scale: 50 %
 
 In this widget, you can see a list of the opened images. Selecting one of them, will
 only make that image visible in the canvas. You can select multiple images from the
@@ -67,6 +68,7 @@ This dock widget has some controls to modify the appearance of the currently sel
 sprite.
 
 .. image:: img/spritedock.png
+   :scale: 50 %
 
 Transformations
 ^^^^^^^^^^^^^^^
@@ -156,5 +158,5 @@ ahead and generate your firsts maps with Laigter!
 
 .. image:: img/visualization.gif
 
-.. |export| image:: ../Introduction/img/export.png
+.. |import| image:: ../Introduction/img/import.png
             :scale: 50 %
