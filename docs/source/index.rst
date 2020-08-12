@@ -8,7 +8,7 @@ Welcome to Laigter's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Introduction:
 
    Introduction/intro
    Introduction/install
@@ -16,3 +16,16 @@ Welcome to Laigter's documentation!
    Introduction/support
    Introduction/community
 
+.. toctree::
+   :maxdepth: 2
+   :caption: How to:
+
+   HowTo/first-steps
+   HowTo/normal-map
+   HowTo/specular-map
+   HowTo/parallax-map
+   HowTo/occlusion-map
+   HowTo/preview
+   HowTo/export
+   HowTo/animations
+   HowTo/tilemaps
