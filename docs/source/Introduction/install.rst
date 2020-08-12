@@ -34,7 +34,7 @@ If you prefer to use *flatpak* instead, you can open your command line, and run:
 You can get more information about this way to install on `Flathub <https://flathub.org/apps/details/io.itch.azagaya.Laigter/>`_. After the install, the app should be
 integrated into your desktop environment.
 
-*Thanks a lot to `Calinou <https://github.com/Calinou/>`_ for this!*
+Thanks a lot to `Calinou <https://github.com/Calinou/>`_ for this!
 
 Running on Mac
 --------------
