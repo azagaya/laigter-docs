@@ -61,6 +61,22 @@ You can right-click on an item of the list to open a context menu with different
 actions. You can remove an image selecting the "Remove" action from the context
 menu. The rest of the actions will be covered in other sections.
 
+Moving and Rotating the canvas
+------------------------------
+
+Sometimes its useful to move the canvas arround, for example, to get a better view of
+a texture region that is very zoomed in. Sometimes it is needed to rotate the canvas,
+for example, for making painting with brushes easier.
+
+In Laighter you can move the
+canvas, which adds an offset to the world's origin, pressing and dragging right clic
+on a free space (i.e, without selecting any texture).
+
+You can rotate the full canvas pressing and dragging left click, while holding Shift key.
+
+.. image:: img/canvastransform.gif
+
+
 Sprite Properties Dock Widget
 -----------------------------
 
