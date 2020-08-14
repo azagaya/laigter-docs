@@ -8,6 +8,7 @@ what each of those sliders do will be explained.
 Al the controls that affect the normal map generation are grouped under the **Normal**
 dock widget. 
 
+.. _enhance_controls:
 Enhance controls
 ----------------
 
@@ -50,7 +51,7 @@ slider.
 
    Effect of *Enhance* soft control in the normal map.
 
-.. figure:: img/enchance-soft-preview.gif
+.. figure:: img/enhance-soft-preview.gif
 
    Effect of the *Enhance* soft control in the preview.
 
@@ -59,7 +60,54 @@ Bump controls
 
 Enhance controls are meant for generating normals of inner details of the texture.
 But for 2D sprite, is usefull to give some bump effect from its edges. This means,
-make the sprite look like it has volume. For this we use the controls under the
-*Bump* group.
+make the sprite look like it has volume. This is made making a distance transform
+with the alpha mask of the texture, and using it as a heightmap for calculating the
+normal vectors.
 
+For this we use the controls under the *Bump* group, whic has four different
+controls. for a better understanding of this controls, lets put the *Enhance*
+controls in zero.
+
+Height Control
+""""""""""""""
+
+This control makes the same effect like the one with the same name described in
+:ref:`enhance_controls`, but this time to the normals generated from the edge of
+the texture.
+
+.. figure:: img/bump-height-map.gif
+
+   Effect of *Bump* height control in the normal map.
+
+.. figure:: img/bump-height-preview.gif
+
+   Effect of the *Bump* height control in the preview.
+
+Distance Control
+""""""""""""""""
+
+The previous control helped us to tweak the normal vector direction from the edges
+of the texture. This control specifies the distance from the edge of the texture to
+the center of it before the *Bump* normal map flattens.
+
+.. figure:: img/bump-distance-map.gif
+
+   Effect of *Bump* distance control in the normal map.
+
+.. figure:: img/bump-distance-preview.gif
+
+   Effect of the *Bump* distance control in the preview.
+
+Soft Control
+""""""""""""
+
+This control also makes the same effect that its homonimous in the *Enhance* group.
+
+.. figure:: img/bump-soft-map.gif
+
+   Effect of *Bump* soft control in the normal map.
+
+.. figure:: img/bump-soft-preview.gif
+
+   Effect of the *Bump* soft control in the preview.
 
