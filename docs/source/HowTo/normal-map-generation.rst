@@ -23,4 +23,4 @@ Height Control
 A normal vector can be thought as the derivative of the height on a surface. If
 that height almost doesn't change (like on a flat surface) the normal will point
 upwards (or to the screen, in our case of 2D textures). This will lead to the blueish
-color we talked about in the :ref:`what_are_normal_maps` section.
+color we talked about in the :ref:`intro:What are normal maps?` section.

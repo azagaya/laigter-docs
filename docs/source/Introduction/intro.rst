@@ -17,7 +17,6 @@ occlusion, although they are a bit less used in 2D games compared to normal maps
 
 Once you are convinced by the results, you can export each individual map, and use them in your game to create cool dynamic lighting effects with minimal effort!
 
-.. _what_are_normal_maps:
 What are normal maps?
 ---------------------
 
