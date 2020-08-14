@@ -21,10 +21,10 @@ Welcome to Laigter's documentation!
    :caption: How to:
 
    HowTo/first-steps
-   HowTo/normal-map
-   HowTo/specular-map
-   HowTo/parallax-map
-   HowTo/occlusion-map
+   HowTo/normal-map-generation
+   HowTo/specular-map-generation
+   HowTo/parallax-map-generation
+   HowTo/occlusion-map-generation
    HowTo/preview
    HowTo/export
    HowTo/animations
