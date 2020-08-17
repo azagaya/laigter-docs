@@ -96,7 +96,8 @@ the center of it before the *Bump* normal map flattens.
 
 .. figure:: img/bump-distance-preview.gif
 
-   Effect of the *Bump* distance control in the preview.
+   Effect of the *Bump* distance
+            control in the preview.
 
 Soft Control
 """"""""""""
@@ -111,3 +112,39 @@ This control also makes the same effect that its homonimous in the *Enhance* gro
 
    Effect of the *Bump* soft control in the preview.
 
+Soft/Abrupt radio buttons
+"""""""""""""""""""""""""
+
+This radio buttons are used to specify how the distance should be calculated from the
+edges of the sprite to the center of it. Selecting *Soft* will make the height generated
+by *Bump* controls increase in a way that tries to emulate a spheric bump. *Abrupt*
+option instead, will make the height increase linearly.
+
+.. figure:: img/bump-cut-map.gif
+
+   Effect of *Bump* soft/abrupt radio control in the normal map.
+
+.. figure:: img/bump-cut-preview.gif
+
+   Effect of the *Bump* soft/abrupt radio control in the preview.
+
+Axis Controls
+-------------
+
+This group contains only two checkboxes, used to invert de *x* or *y*
+component of the normal vector respectively. This is used in case you
+want the final effect look like a *bump* or a *sink*.
+
+.. note::
+   Some engines or tools (like Godot) use down direction as possitive y.
+   For normal maps to work correctly on them, you need to check *Invert y*
+   control. Right now is the only way to achieve it, although in near future
+   there will be a on-export option for this.
+
+.. figure:: img/axis-invert-map.gif
+
+   Effect of inverting axis in the normal map.
+
+.. figure:: img/axis-invert-preview.gif
+
+   Effect of inverting axis in the preview.
