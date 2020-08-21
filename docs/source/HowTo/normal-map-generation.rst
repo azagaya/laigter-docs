@@ -44,7 +44,7 @@ Soft Control
 """"""""""""
 
 After the normal map due to the enhance controls was generated, a blur is applied
-to get a better looking result. The ammount of blur applied is controller with this
+to get a better looking result. The ammount of blur applied is controlled with this
 slider.
 
 .. figure:: img/enhance-soft-map.gif
