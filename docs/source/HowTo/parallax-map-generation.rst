@@ -41,7 +41,7 @@ given a threshold, and generate the parallax map from that image.
    and making it white if its above a threshold, or black if its below.
 
 Threshold Control
------------------
+"""""""""""""""""
 
 This control allows the user to chose the threshold for the binarization.
 
@@ -50,7 +50,7 @@ This control allows the user to chose the threshold for the binarization.
    Effect of *Threshold* control on parallax map.
 
 Focus Control
--------------
+"""""""""""""
 
 This control applies a blur previous to the binarization. That way, is the
 image is to noisy, you can get rid of small "islands" when making the binary
@@ -59,3 +59,87 @@ image.
 .. figure:: img/focus-parallax.gif
 
    Effect of *Focus* control on parallax map.
+
+Soft Control
+""""""""""""
+
+As in all maps, this control just applies blur to the resulting map.
+
+.. figure:: img/soft-parallax.gif
+
+   Effect of *Soft* control on parallax map.
+
+Min Height
+""""""""""
+
+This sliders lets you adjust the minimum height of the map. As in this mode, the image
+is binarized, this means all pixels will turn black (0) or white (255) depending the
+threshold, and after that, other effects will be applied. With this control, you can
+adjust the minimum to be higher than 0.
+
+.. figure:: img/min-height-parallax.gif
+
+   Effect of *Min Height* control on parallax map.
+
+Erode/Dilate
+""""""""""""
+
+The binarized image will generally result in black islands on a white background or
+the other way round. With this, you can make those islands smaller (erode) or bigger
+(dilate). Positive value will dilate the white regions, and negative will erode them.
+
+.. figure:: img/erode-dilate-parallax.gif
+
+   Effect of *Erode/Dilate* control on parallax map.
+
+Invert
+""""""
+
+This checkbox just lets you invert the parallax map.
+
+.. figure:: img/invert-parallax.gif
+
+   Effect of *Invert* control on parallax map.
+
+Height Map Mode
+--------------
+
+Instead of binarizeing the texture, this mode use the generated or loaded heightmap
+used for normal map generation, as the parallax map. Of course, it also provides a
+set of controls to tweak this, without affecting the normal map.
+
+Soft Control
+""""""""""""
+
+Same as *soft* slider explained in binary mode. It just applies blur to the result.
+
+Brightness Control
+""""""""""""""""""
+
+With this control, you can add a constant value (positive or negative) to the map, to
+make it ligther or darker.
+
+.. figure:: img/brightness-parallax.gif
+
+   Effect of *Brightness* control on parallax map.
+
+Contrast Control
+""""""""""""""""
+
+This slider is used to augment or reduce the contrast of the resulting map.
+
+.. figure:: img/contrast-parallax.gif
+
+   Effect of *Contrast* control on parallax map.
+
+Invert Control
+""""""""""""""
+
+Same effect as *invert* control explained in binary mode.
+
+
+
+
+
+
+
