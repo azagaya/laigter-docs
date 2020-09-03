@@ -28,9 +28,9 @@ Normal maps are more often used in 3D games to achieve high quality lighting wit
 cost. A 3D model is made from tiny triangles, each of one has a normal vector (unit
 vector perpendicular to the triangle's surface). So light can bounce and reflect
 according to that normal. However, to achieve high quality results, the model should have
-a lot of triangles, wich increases the computational cost. With normal maps, you can
+a lot of triangles, which increases the computational cost. With normal maps, you can
 get a per-fragment normal, only needing to pass a texture with the information of the
-normal vector on its RGB components. Then, this can be used to achive a more detailed
+normal vector on its RGB components. Then, this can be used to achieve a more detailed
 light interaction with very cheap gpu cost.
 
 In 2D games, this is more noticeable, as we don't even have surfaces with normal
@@ -64,7 +64,7 @@ an unitary vector (its length is equal to 1), you only need values from -1 to 1 
 each axis. But RGB can store values from 0 to 1, so the normal map has the components
 of the vector scaled by 0.5, and with a 0.5 offset. This causes the vector
 *(0.0, 0.0, 1.0)* (normal vector pointing directly to screen) would transform into
-*(0.5, 0.5, 1.0)*, and this is the reazon why normal maps have that blueish color.
+*(0.5, 0.5, 1.0)*, and this is the reason why normal maps have that blueish color.
 
 Why choose Laigter?
 ------------------
