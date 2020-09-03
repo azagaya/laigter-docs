@@ -66,7 +66,7 @@ of the vector scaled by 0.5, and with a 0.5 offset. This causes the vector
 *(0.0, 0.0, 1.0)* (normal vector pointing directly to screen) would transform into
 *(0.5, 0.5, 1.0)*, and this is the reazon why normal maps have that blueish color.
 
-Why chose Laigter?
+Why choose Laigter?
 ------------------
 
 There are other cool normal maps generators out there, but Laigter is free and
