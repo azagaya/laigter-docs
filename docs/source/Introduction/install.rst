@@ -6,9 +6,11 @@ Laigter is available for Linux, Windows, and MacOS. Mac version is experimental 
 Installing on Windows
 ---------------------
 
-The only way currently to get an installer for Windows, is through `itch.io <https://itch.io/>`_ or usint the itch.io desktop App.
+The only ways currently to get an installer for Windows, is through `itch.io <https://itch.io/>`_ .
 
 You can get the binaries directly from the `project page <https://azagaya.itch.io/laigter/>`_. There you can choose to download an installer, or a portable version if you prefer so. The installation process is simple: just run the installer and follow the steps as with most software out there. With the portable version, you just need to extract the zip to a folder of your preference, and run the binary from there.
+
+You can also install Laigter using the itch.io desktop App. Just open the app, and use the search bar to find Laigter, then hit install on the lower right corner.
 
 Note: due to Laigter being a free and open-source tool with zero budget, it is not registered on Windows, so it may raise some alerts on the system. Please trust me,
 it is totally safe to run Laigter.
