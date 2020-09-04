@@ -63,7 +63,7 @@ Moving and Rotating the canvas
 
 
 Sometimes it's useful to move the canvas around, for example, to get a better view of
-a texture region that is very zoomed in.Sometimes you need to rotate the canvas to make it easier to use brushes.
+a texture region that is very zoomed in. Sometimes you need to rotate the canvas to make it easier to use brushes.
 
 In Laigter you can move the
 canvas, which adds an offset to the world's origin, pressing and dragging right-click
