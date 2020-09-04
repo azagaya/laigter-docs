@@ -14,7 +14,7 @@ Controls
 --------
 
 Threshold, Brightness, Contrast, Soft and Invert controls have the exact same
-effects on the occlusion map as those explained in :doc: `specular-map-generation`
+effects on the occlusion map as those explained in :doc:`specular-map-generation`
 for a specular map, so we won't go in detail here. There is only one control that is
 worth explaining in this section.
 
