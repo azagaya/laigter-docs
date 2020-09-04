@@ -1,9 +1,9 @@
 Laigter's Main Window
 =====================
 
-I try to keep Laigter's gui as simple as possible, with all needed controls at reach.
+I try to keep Laigter's GUI as simple as possible, with all needed controls at reach.
 For this, the main window is made with a central widget, where all the rendering
-happens, and movable dock widgets, with the controls needed for tweak the maps.
+happens, and movable dock widgets, with the controls needed to tweak the maps.
 Also, there is a toolbar with buttons for the most used features of the tool.
 When opening Laigter, you should see this window:
 
@@ -11,9 +11,8 @@ When opening Laigter, you should see this window:
 
 Toolbar buttons
 ---------------
-
 In the toolbar, you will notice a few buttons. This is a brief explanation of each
-one, in order of appearance in the gui:
+one, in order of appearance in the GUI:
 
 - |open| Open Project: Open a previously saved Laigter project file.
 - |save| Save Project: Save current work as a Laigter project file. If the project has not been saved previously, it will trigger *Save As* instead.
@@ -34,11 +33,11 @@ one, in order of appearance in the gui:
 
 - |presets| Presets: Lets you save/load/apply presets to the selected textures. Will be covered in other sections.
 
-- Language: Lets you select the language of your preference for the gui.
+- Language: Lets you select the language of your preference for the GUI.
 
 - |about| About: Opens a window with information about Laigter version, contributors, supporters, links to relevant sites, etc.
 
-- |themes| Theme: Lets you select the theme for the gui.
+- |themes| Theme: Lets you select the theme for the GUI.
 - |add-plugin| Install Plugin: Opens a dialog to select a plugin from your file system and install it to Laigter.
 
 - |remove-plugin| Delete Plugin: Opens a dialog to select and delete a specific plugin.
@@ -48,14 +47,14 @@ one, in order of appearance in the gui:
 Dock Widgets
 ------------
 
-Most of the controls of Laigter are placed in dock widgets that you can move arround the gui. The following image shows all of the dock widgets together:
+Most of the controls of Laigter are placed in dock widgets that you can move around the GUI. The following image shows all of the dock widgets together:
 
 .. image:: img/DockWidgets.png
 
 The controls of each individual dock widget will be explained in a section of their own, but here is a brief explanation of the docks.
 
-- Normal/Specular/Parallax/Occlusion: this dock contain the controls for tweaking the generation of each map.
-- Sprite Proerties Dock Widget: In this dock, you have some controls and information of the currently selected sprite. You can change its position in the canvas, as well as its rotation and scale. You can select to generate maps in a *tiled* way, and choose how to extend it outside it bonds (select neighbours). Also, here you can make animations out of a sprite sheet, splitting the texture in multiple frames.
+- Normal/Specular/Parallax/Occlusion: this dock contains the controls for tweaking the generation of each map.
+- Sprite Properties Dock Widget: In this dock, you have some controls and information of the currently selected sprite. You can change its position in the canvas, as well as its rotation and scale. You can select to generate maps in a *tiled* way, and choose how to extend it outside it bonds (select neighbors). Also, here you can make animations out of a sprite sheet, splitting the texture in multiple frames.
 - Visualization: This dock lets you choose what map you want to see, or select preview to see the result with dynamic lighting. Also, some other controls let you tweak the preview a bit.
 - Textures: This dock just contains a list of the currently opened textures. You can select multiple of them to show them all at the same time in the central widget.
 - Export: In this dock, you can select which maps you want to export, and if you want to export directly in the location of the original sprite (Export button) or to a specified folder (Export to.. button). This makes a batch export, exporting maps of all textures.
@@ -69,7 +68,7 @@ A slider in Laigter looks like this:
 
 .. image:: img/Slider.png
 
-The usage is simple. You can grab it from the right little square indicator, or you can simply write a number, and the slider value will be updated. And that's all!
+The usage is simple: you can grab it from the right little square indicator, or you can simply write a number, and the slider value will be updated. And that's all!
 
 .. |open| image:: img/open.png
           :scale: 50 %
