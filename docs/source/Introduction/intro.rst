@@ -30,7 +30,8 @@ vector perpendicular to the triangle's surface). So light can bounce and reflect
 according to that normal. However, to achieve high quality results, the model should have
 a lot of triangles, which increases the computational cost. With normal maps, you can
 get a per-fragment normal, only needing to pass a texture with the information of the
-normal vector on its RGB components. Then, this can be used to achieve a more detailed
+normal vector on its RGB components. Then, this can be used to achie
+ve a more detailed
 light interaction with very cheap gpu cost.
 
 In 2D games, this is more noticeable, as we don't even have surfaces with normal

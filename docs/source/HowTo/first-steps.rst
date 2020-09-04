@@ -74,7 +74,7 @@ on a free space (i.e, without selecting any texture).
 
 You can rotate the full canvas pressing and dragging left click, while holding Shift key.
 
-.. image:: img/canvastransform.gif
+.. image:: img/canvastransforms.gif
 
 
 Sprite Properties Dock Widget
